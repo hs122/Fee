@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <header class ="main-title">
+        <h1>UNIVERSITY FEE STRUCTURE</h1>
+    </header>
+    <main id ="main-content">
+    <select id="Fee" onChange="fetchValue('Fee',this)">
+        <option value="">--Select Fee--</option>
+        <option value="ExamFee">Exam Fee</option>
+        <option value="ApplicationFee">Application Fee</option>
+        
+    </select>
+    <select id="Level" onChange="fetchValue('Level',this)">
+        <option value="">--Select Level--</option>
+        <option value="UG">UG</option>
+        <option value="UG-Diploma">UG-DIPLOMA</option>
+        <option value="PG">PG</option>
+    </select>
+    <select id="Nationality" onChange="fetchValue('nationality',this)">
+        <option value="">--Select Nationality--</option>
+        <option value="INDIAN">INDIAN</option>
+        <option value="FOREIGN">FOREIGN</option>
+        <option value="NRI">NRI</option>
+        <option value="NRI">SAARC</option>
+    </select>
+    <select id="Course" onChange="fetchValue('course', this)">
+        <option value="">--Select Course--</option>
+        <option value="Medical">Medical</option>
+        <option value="Dental">Dental</option>
+        <option value="Ayurveda">Ayurveda</option>
+    </select>
+
+    <button id="btn" type="submit">Submit</button>
+   
+       
+   
+    </main>
+    <p id ="demo"> </p>
+    <script src="main.js">
+    </script>
+
+</body>
+
+</html>

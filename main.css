@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.main-title{
+    background-color: olive;
+    padding: 10px;
+   
+}
+.main-title h1{
+    color: white;
+    text-align: center;
+}
+
+
+#main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+#main-content select{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
+    color : olive;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px lightcoral;
+}
+#main-content button{
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+   
+}
+
+#demo{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
